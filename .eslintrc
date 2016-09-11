@@ -1,0 +1,23 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "generators": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "worker": true,
+        "jquery": true
+    },
+    "rules": {
+        "eqeqeq": 2,
+        "no-console": 0
+    },
+    "globals": {
+        "chrome": true,
+    }
+}
