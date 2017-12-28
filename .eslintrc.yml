@@ -1,0 +1,4 @@
+extends: handsome
+globals:
+  chrome: true
+  $: true

@@ -1,12 +1,12 @@
-## tumblr_video_download_crx
+# tumblr\_video\_download_crx
 
 Chrome extension for download video from tumblr.com
 
-### Usage
+## Usage
 
 1. Install this extension from chrome web store
-2. Go to tumblr.com and find the video you want
-3. Click the right mouse button and you'll see the "download video from tumblr"
+1. Go to tumblr.com and find the video you want
+1. Click the right mouse button and you'll see the "download video from tumblr"
 
 ![usage](https://github.com/poppinlp/tumblr_video_download_crx/raw/master/img/usage.png)
 

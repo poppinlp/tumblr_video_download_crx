@@ -1,34 +1,32 @@
 {
-	"manifest_version": 2,
-
-	"name": "Tumblr Video Download",
-    "short_name": "TVD",
-	"description": "Chrome extension for download video from tumblr",
-	"version": "0.0.1",
+    "manifest_version": 2,
+    "name": "Tumblr Video Download",
+    "short_name": "tbDownload",
+    "description": "Chrome extension for download video from tumblr",
+    "version": "0.0.1",
     "author": "PoppinL",
-
     "browser_action": {
         "default_icon": {
-			"16": "img/logo.png",
-			"48": "img/logo.png",
-			"128": "img/logo.png"
+            "16": "img/logo.png",
+            "48": "img/logo.png",
+            "128": "img/logo.png"
         }
     },
-	"icons": {
-		"16": "img/logo.png",
-		"48": "img/logo.png",
-		"128": "img/logo.png"
-	},
+    "icons": {
+        "16": "img/logo.png",
+        "48": "img/logo.png",
+        "128": "img/logo.png"
+    },
     "offline_enabled": true,
     "background": {
         "scripts": [
-			"js/jquery.min.js",
+            "vendor/jquery.min.js",
             "js/bg.js"
         ]
     },
-	"permissions": [
+    "permissions": [
         "downloads",
         "contextMenus",
-		"*://*.tumblr.com/*"
-	]
+        "*://*.tumblr.com/*"
+    ]
 }

@@ -1,0 +1,29 @@
+{
+  "name": "tumblr_video_download_crx",
+  "version": "0.1.1",
+  "description": "Download video from tumblr.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "zip -r build.zip img js manifest.json LICENSE README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppinlp/tumblr_video_download_crx.git"
+  },
+  "keywords": [
+    "tumblr",
+    "download",
+    "chrome_extension"
+  ],
+  "author": "PoppinL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppinlp/tumblr_video_download_crx/issues"
+  },
+  "homepage": "https://github.com/poppinlp/tumblr_video_download_crx#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-handsome": "^0.4.0"
+  }
+}
